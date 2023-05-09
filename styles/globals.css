@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  li {
+    @apply p-4 hover:cursor-pointer hover:underline hover:underline-offset-8 hover:decoration-2 hover:decoration-[#70f1ae];
+  }
+
+  img {
+    @apply rounded-xl
+  }
+
+}
+
+/* #70f1ae */
+
+/* 
+sm	640px	@media (min-width: 640px) { ... }
+md	768px	@media (min-width: 768px) { ... }
+lg	1024px	@media (min-width: 1024px) { ... }
+xl	1280px	@media (min-width: 1280px) { ... }
+2xl	1536px	@media (min-width: 1536px) { ... }  */
